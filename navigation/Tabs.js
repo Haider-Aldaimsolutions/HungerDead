@@ -3,7 +3,7 @@ import { StyleSheet, Text, Image, View, TouchableOpacity } from 'react-native';
 import { createBottomTabNavigator, BottomTabBar } from '@react-navigation/bottom-tabs';
 import { Home } from '../screens';
 import Svg, { Path } from 'react-native-svg';
-export default function Tabs() {
+export default function Tabs({ navigation }) {
     const tab = createBottomTabNavigator();
     const TabBarCustomButton = ({ accessibilityState, children, onPress }) => {
 

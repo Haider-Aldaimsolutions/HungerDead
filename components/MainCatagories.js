@@ -1,13 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { FlatList, TouchableOpacity, StyleSheet, Text, Image, View } from 'react-native';
-import { categoryData } from './API';
+import { categoryData, restaurantData } from './API';
 
 export default function MainCatagories() {
     const [catagory, setCatagory] = useState('');
-    const setCatagoryHandler = (item) => {
+    const setCatagoryHandler = (category) => {
+        let restaurantList = restaurantData.filter(a => a.categories.includes(category.id))
 
-        setCatagory(item)
+        //setRestaurants(restaurantList)
+
+        //setSelectedCategory(category)
+        setCatagory(category)
     }
 
     const renderItem = ({ item }) => (
