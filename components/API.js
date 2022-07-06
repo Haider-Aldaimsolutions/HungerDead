@@ -1,8 +1,8 @@
-const initialCurrentLocation = {
+export const initialCurrentLocation = {
     streetName: "Kuching",
     gps: {
-        latitude: 1.5496614931250685,
-        longitude: 110.36381866919922
+        latitude: 31.29941759666539,
+        longitude: 74.0700816818054,
     }
 }
 
@@ -72,8 +72,8 @@ export const restaurantData = [
         photo: require('../assets/images/burger-restaurant-2.jpg'),
         duration: "30 - 45 min",
         location: {
-            latitude: 1.5347282806345879,
-            longitude: 110.35632207358996,
+            latitude: 31.47458131218681,
+            longitude: 74.25902878096271,
         },
         courier: {
             avatar: require('../assets/images/avatar-1.jpg'),
@@ -115,8 +115,8 @@ export const restaurantData = [
         photo: require('../assets/images/pizza.jpg'),
         duration: "15 - 20 min",
         location: {
-            latitude: 1.556306570595712,
-            longitude: 110.35504616746915,
+            latitude: 31.47458131218681,
+            longitude: 74.25902878096271,
         },
         courier: {
             avatar: require('../assets/images/avatar-2.jpg'),
@@ -166,8 +166,8 @@ export const restaurantData = [
         photo: require('../assets/images/hot-dog-restaurant.jpg'),
         duration: "20 - 25 min",
         location: {
-            latitude: 1.5238753474714375,
-            longitude: 110.34261833833622,
+            latitude: 31.47458131218681,
+            longitude: 74.25902878096271,
         },
         courier: {
             avatar: require('../assets/images/avatar-3.jpg'),
@@ -193,8 +193,8 @@ export const restaurantData = [
         photo: require('../assets/images/sushi.jpg'),
         duration: "10 - 15 min",
         location: {
-            latitude: 1.5578068150528928,
-            longitude: 110.35482523764315,
+            latitude: 31.47458131218681,
+            longitude: 74.25902878096271,
         },
         courier: {
             avatar: require('../assets/images/avatar-4.jpg'),
@@ -221,8 +221,8 @@ export const restaurantData = [
         photo: require('../assets/images/cusine.jpeg'),
         duration: "15 - 20 min",
         location: {
-            latitude: 1.558050496260768,
-            longitude: 110.34743759630511,
+            latitude: 31.47458131218681,
+            longitude: 74.25902878096271,
         },
         courier: {
             avatar: require('../assets/images/avatar-5.jpg'),
@@ -274,8 +274,8 @@ export const restaurantData = [
         photo: require('../assets/images/kek-lapis-shop.jpg'),
         duration: "35 - 40 min",
         location: {
-            latitude: 1.5573478487252896,
-            longitude: 110.35568783282145,
+            latitude: 31.47458131218681,
+            longitude: 74.25902878096271,
         },
         courier: {
             avatar: require('../assets/images/avatar-1.jpg'),
