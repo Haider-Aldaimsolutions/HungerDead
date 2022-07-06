@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "GoPack",
-    "slug": "GoPack",
+    "name": "HungerDead",
+    "slug": "HungerDead",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo1.jpeg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/splash3.jpeg",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
